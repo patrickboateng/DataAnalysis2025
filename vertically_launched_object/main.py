@@ -52,6 +52,9 @@ if __name__ == '__main__':
     ax2.grid(True)
     plt.show()
 
+# The derivative plot reveals the continuous deceleration under gravity, the
+# momentary stop at the peak (v = 0), and the acceleration back downward — a
+# perfect illustration of motion under constant acceleration.
 
 
 
