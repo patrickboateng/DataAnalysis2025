@@ -45,11 +45,12 @@ if __name__ == '__main__':
     ax1.grid(True)
 
     ax2.plot(times, dy_dt, linewidth=2, color='black')
-    plt.title("Velocity dy/dt vs. Time")
-    plt.xlabel("Time t (s)")
-    plt.ylabel("dy/dt (m/s)")
-
+    ax2.set_title("Velocity dy/dt vs. Time")
+    ax2.set_xlabel("Time t (s)")
+    ax2.set_ylabel("dy/dt (m/s)")
     ax2.grid(True)
+
+    plt.tight_layout()
     plt.show()
 
 # The derivative plot reveals the continuous deceleration under gravity, the
